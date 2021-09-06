@@ -1,0 +1,10 @@
+C:\Projects\NEMC.Coop\NEMC.WebApi\NEMC.DataAccess\bin\Debug\netcoreapp3.1\NEMC.DataAccess.deps.json
+C:\Projects\NEMC.Coop\NEMC.WebApi\NEMC.DataAccess\bin\Debug\netcoreapp3.1\NEMC.DataAccess.dll
+C:\Projects\NEMC.Coop\NEMC.WebApi\NEMC.DataAccess\bin\Debug\netcoreapp3.1\NEMC.DataAccess.pdb
+C:\Projects\NEMC.Coop\NEMC.WebApi\NEMC.DataAccess\obj\Debug\netcoreapp3.1\NEMC.DataAccess.csproj.AssemblyReference.cache
+C:\Projects\NEMC.Coop\NEMC.WebApi\NEMC.DataAccess\obj\Debug\netcoreapp3.1\NEMC.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projects\NEMC.Coop\NEMC.WebApi\NEMC.DataAccess\obj\Debug\netcoreapp3.1\NEMC.DataAccess.AssemblyInfoInputs.cache
+C:\Projects\NEMC.Coop\NEMC.WebApi\NEMC.DataAccess\obj\Debug\netcoreapp3.1\NEMC.DataAccess.AssemblyInfo.cs
+C:\Projects\NEMC.Coop\NEMC.WebApi\NEMC.DataAccess\obj\Debug\netcoreapp3.1\NEMC.DataAccess.csproj.CoreCompileInputs.cache
+C:\Projects\NEMC.Coop\NEMC.WebApi\NEMC.DataAccess\obj\Debug\netcoreapp3.1\NEMC.DataAccess.dll
+C:\Projects\NEMC.Coop\NEMC.WebApi\NEMC.DataAccess\obj\Debug\netcoreapp3.1\NEMC.DataAccess.pdb

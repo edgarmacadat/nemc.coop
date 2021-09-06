@@ -1,0 +1,55 @@
+mat-toolbar {
+    background: #004a9f;
+    color: white;
+}
+
+mat-sidenav {
+    width: 200px;
+    border-right: none;
+    background: #002b5c;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+.content {
+    height: calc(100vh - 98px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    color: lightgray;
+    padding: 6px;
+}
+
+mat-sidenav-container {
+    height: calc(100vh - 65px);
+}
+
+mat-sidenav-content.mat-drawer-content.mat-sidenav-content {
+    margin-left: 200px;
+    padding: 5px;
+    background: #e6e6e6;
+}
+
+button.menu-button.ng-tns-c106-0 {
+    width: 99%;
+    height: 9%;
+    margin: -1px;
+}
+
+.mat-icon {
+    background-repeat: no-repeat;
+    fill: currentColor;
+    height: 24px;
+    width: 24px;
+    float: left;
+    padding-left: 7px;
+}
+
+.mat-button {
+    span {
+        float: left;
+        padding: 5px 5px 5px 12px;
+    }
+}

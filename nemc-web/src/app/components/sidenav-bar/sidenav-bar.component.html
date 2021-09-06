@@ -1,0 +1,30 @@
+<mat-sidenav-container>
+    <mat-sidenav #sidenav mode="side" [(opened)]="opened">
+        <button mat-button class="menu-button">
+            <mat-icon>home</mat-icon>
+            <span class="mnu">Home</span>
+        </button>
+        <button mat-button class="menu-button">
+            <mat-icon>person</mat-icon>
+            <span class="mnu">Profile</span>
+        </button>
+        <button mat-button class="menu-button">
+            <mat-icon>info</mat-icon>
+            <span class="mnu">Services</span>
+        </button>
+        <mat-divider></mat-divider>
+        <button mat-button class="menu-button">
+            <mat-icon>event</mat-icon>
+            <span class="mnu">Events</span>
+        </button>
+        <button mat-button class="menu-button">
+            <mat-icon>supervised_user_circle</mat-icon>
+            <span class="mnu">Organization</span>
+        </button>
+    </mat-sidenav>
+    <mat-sidenav-content>
+        <div>
+            <app-home></app-home>
+        </div>
+    </mat-sidenav-content>
+</mat-sidenav-container>
