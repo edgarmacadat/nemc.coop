@@ -1,0 +1,10 @@
+C:\Projects\NEMC.Coop\NEMC.WebApi\NEMC.Common\bin\Debug\netcoreapp3.1\NEMC.Common.deps.json
+C:\Projects\NEMC.Coop\NEMC.WebApi\NEMC.Common\bin\Debug\netcoreapp3.1\NEMC.Common.dll
+C:\Projects\NEMC.Coop\NEMC.WebApi\NEMC.Common\bin\Debug\netcoreapp3.1\NEMC.Common.pdb
+C:\Projects\NEMC.Coop\NEMC.WebApi\NEMC.Common\obj\Debug\netcoreapp3.1\NEMC.Common.csproj.AssemblyReference.cache
+C:\Projects\NEMC.Coop\NEMC.WebApi\NEMC.Common\obj\Debug\netcoreapp3.1\NEMC.Common.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projects\NEMC.Coop\NEMC.WebApi\NEMC.Common\obj\Debug\netcoreapp3.1\NEMC.Common.AssemblyInfoInputs.cache
+C:\Projects\NEMC.Coop\NEMC.WebApi\NEMC.Common\obj\Debug\netcoreapp3.1\NEMC.Common.AssemblyInfo.cs
+C:\Projects\NEMC.Coop\NEMC.WebApi\NEMC.Common\obj\Debug\netcoreapp3.1\NEMC.Common.csproj.CoreCompileInputs.cache
+C:\Projects\NEMC.Coop\NEMC.WebApi\NEMC.Common\obj\Debug\netcoreapp3.1\NEMC.Common.dll
+C:\Projects\NEMC.Coop\NEMC.WebApi\NEMC.Common\obj\Debug\netcoreapp3.1\NEMC.Common.pdb

@@ -7,7 +7,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NEMC.WebApi", "NEMC.WebApi\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NEMC.DataAccess", "NEMC.DataAccess\NEMC.DataAccess.csproj", "{437D06EC-1998-4A80-A3A6-5599C1C8C4D1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NEMC.BL", "NEMC.BL\NEMC.BL.csproj", "{6D2051AE-E465-476D-9697-C7917A6105DC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NEMC.BL", "NEMC.BL\NEMC.BL.csproj", "{6D2051AE-E465-476D-9697-C7917A6105DC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NEMC.Common", "NEMC.Common\NEMC.Common.csproj", "{C4CA5834-C6D3-4F58-93C2-FB5A6A769DC9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{6D2051AE-E465-476D-9697-C7917A6105DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6D2051AE-E465-476D-9697-C7917A6105DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6D2051AE-E465-476D-9697-C7917A6105DC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C4CA5834-C6D3-4F58-93C2-FB5A6A769DC9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C4CA5834-C6D3-4F58-93C2-FB5A6A769DC9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C4CA5834-C6D3-4F58-93C2-FB5A6A769DC9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C4CA5834-C6D3-4F58-93C2-FB5A6A769DC9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
