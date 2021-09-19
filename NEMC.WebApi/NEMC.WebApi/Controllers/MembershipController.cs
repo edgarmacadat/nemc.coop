@@ -1,6 +1,8 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using AutoMapper;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using NEMC.BL;
+using NEMC.Common.Dto;
 using NEMC.DataAccess;
 using NEMC.DataAccess.Entities;
 using System;
@@ -14,20 +16,17 @@ namespace NEMC.WebApi.Controllers
     [Route("[controller]")]
     public class MembershipController : ControllerBase
     {
-        private IUnitOfWork _unitOfWork;
-        //public MembershipController(UnitOfWork unitOfWork) {
-        //    _unitOfWork = unitOfWork;
-        //}
+        private readonly IMapper _mapper;
 
-        public MembershipController()
+        public MembershipController(IMapper mapper)
         {
-            //_unitOfWork = unitOfWork;
+            _mapper = mapper;
         }
 
         [HttpGet]
-        public IEnumerable<Membership> Get() {
-            var testResult = new UnitOfWork().MembershipBusinessLogic.GetAllMemberships();
-            return testResult;
+        public IEnumerable<MembershipDTO> Get() {
+            var allMembers = new UnitOfWork().MembershipBusinessLogic.GetAllMemberships();
+            return _mapper.Map<List<MembershipDTO>>(allMembers);
         }
     }
 }

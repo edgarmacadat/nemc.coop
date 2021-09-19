@@ -16,5 +16,8 @@ namespace NEMC.Common.Dto
         public int? LastUpdatedBy { get; set; }
         public decimal? ShareMonthlyDeduction { get; set; }
         public decimal? SubscribedAmount { get; set; }
+
+        public virtual PersonalDataDTO PersonalData { get; set; }
+        public virtual AddressDTO[] Addresses { get; set; }
     }
 }

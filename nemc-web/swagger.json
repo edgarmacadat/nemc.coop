@@ -1,0 +1,222 @@
+{
+    "swagger": "2.0",
+    "info": {
+      "title": "My API",
+      "version": "v1"
+    },
+    "paths": {
+      "/Membership": {
+        "get": {
+          "tags": [
+            "Membership"
+          ],
+          "produces": [
+            "text/plain",
+            "application/json",
+            "text/json"
+          ],
+          "responses": {
+            "200": {
+              "description": "Success",
+              "schema": {
+                "type": "array",
+                "items": {
+                  "$ref": "#/definitions/MembershipDTO"
+                }
+              }
+            }
+          }
+        }
+      },
+      "/WeatherForecast": {
+        "get": {
+          "tags": [
+            "WeatherForecast"
+          ],
+          "produces": [
+            "text/plain",
+            "application/json",
+            "text/json"
+          ],
+          "responses": {
+            "200": {
+              "description": "Success",
+              "schema": {
+                "type": "array",
+                "items": {
+                  "$ref": "#/definitions/WeatherForecast"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "definitions": {
+      "AddressDTO": {
+        "type": "object",
+        "properties": {
+          "addressID": {
+            "format": "int32",
+            "type": "integer"
+          },
+          "personalDataID": {
+            "format": "int32",
+            "type": "integer"
+          },
+          "address1": {
+            "type": "string"
+          },
+          "address2": {
+            "type": "string"
+          },
+          "city": {
+            "type": "string"
+          },
+          "province": {
+            "type": "string"
+          },
+          "country": {
+            "type": "string"
+          },
+          "zip": {
+            "format": "int32",
+            "type": "integer"
+          },
+          "addressTypeID": {
+            "format": "int32",
+            "type": "integer"
+          },
+          "createdDate": {
+            "format": "date-time",
+            "type": "string"
+          },
+          "createdBy": {
+            "format": "int32",
+            "type": "integer"
+          },
+          "lastUpdatedDate": {
+            "format": "date-time",
+            "type": "string"
+          },
+          "lastUpdatedBy": {
+            "format": "int32",
+            "type": "integer"
+          }
+        }
+      },
+      "MembershipDTO": {
+        "type": "object",
+        "properties": {
+          "membershipID": {
+            "format": "int32",
+            "type": "integer"
+          },
+          "membershipNumber": {
+            "type": "string"
+          },
+          "isActive": {
+            "type": "boolean"
+          },
+          "isOfficer": {
+            "type": "boolean"
+          },
+          "createdDate": {
+            "format": "date-time",
+            "type": "string"
+          },
+          "createdBy": {
+            "format": "int32",
+            "type": "integer"
+          },
+          "lastUpdatedDate": {
+            "format": "date-time",
+            "type": "string"
+          },
+          "lastUpdatedBy": {
+            "format": "int32",
+            "type": "integer"
+          },
+          "shareMonthlyDeduction": {
+            "format": "double",
+            "type": "number"
+          },
+          "subscribedAmount": {
+            "format": "double",
+            "type": "number"
+          },
+          "personalData": {
+            "$ref": "#/definitions/PersonalDataDTO"
+          },
+          "addresses": {
+            "type": "array",
+            "items": {
+              "$ref": "#/definitions/AddressDTO"
+            }
+          }
+        }
+      },
+      "PersonalDataDTO": {
+        "type": "object",
+        "properties": {
+          "personalDataID": {
+            "format": "int32",
+            "type": "integer"
+          },
+          "lastName": {
+            "type": "string"
+          },
+          "firstName": {
+            "type": "string"
+          },
+          "middleName": {
+            "type": "string"
+          },
+          "birthDate": {
+            "format": "date-time",
+            "type": "string"
+          },
+          "sex": {
+            "type": "string"
+          },
+          "age": {
+            "format": "int32",
+            "type": "integer"
+          },
+          "status": {
+            "type": "string"
+          },
+          "sss": {
+            "type": "string"
+          },
+          "tin": {
+            "type": "string"
+          },
+          "phic": {
+            "type": "string"
+          }
+        }
+      },
+      "WeatherForecast": {
+        "type": "object",
+        "properties": {
+          "date": {
+            "format": "date-time",
+            "type": "string"
+          },
+          "temperatureC": {
+            "format": "int32",
+            "type": "integer"
+          },
+          "temperatureF": {
+            "format": "int32",
+            "type": "integer",
+            "readOnly": true
+          },
+          "summary": {
+            "type": "string"
+          }
+        }
+      }
+    }
+  }

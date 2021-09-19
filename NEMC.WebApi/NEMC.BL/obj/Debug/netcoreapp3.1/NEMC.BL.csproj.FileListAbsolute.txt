@@ -11,3 +11,5 @@ C:\Projects\NEMC.Coop\NEMC.WebApi\NEMC.BL\obj\Debug\netcoreapp3.1\NEMC.BL.csproj
 C:\Projects\NEMC.Coop\NEMC.WebApi\NEMC.BL\obj\Debug\netcoreapp3.1\NEMC.BL.csproj.CopyComplete
 C:\Projects\NEMC.Coop\NEMC.WebApi\NEMC.BL\obj\Debug\netcoreapp3.1\NEMC.BL.dll
 C:\Projects\NEMC.Coop\NEMC.WebApi\NEMC.BL\obj\Debug\netcoreapp3.1\NEMC.BL.pdb
+C:\Projects\NEMC.Coop\NEMC.WebApi\NEMC.BL\bin\Debug\netcoreapp3.1\NEMC.Common.dll
+C:\Projects\NEMC.Coop\NEMC.WebApi\NEMC.BL\bin\Debug\netcoreapp3.1\NEMC.Common.pdb

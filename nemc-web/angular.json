@@ -79,6 +79,10 @@
               "browserTarget": "nemc-web:build:development"
             }
           },
+          "options": {
+            "ssl": false,
+            "proxyConfig": "proxy.config.json"
+          },
           "defaultConfiguration": "development"
         },
         "extract-i18n": {

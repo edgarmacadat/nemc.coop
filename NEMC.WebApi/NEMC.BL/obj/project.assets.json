@@ -2140,6 +2140,16 @@
           "lib/netstandard1.3/System.Xml.XmlSerializer.dll": {}
         }
       },
+      "NEMC.Common/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/NEMC.Common.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/NEMC.Common.dll": {}
+        }
+      },
       "NEMC.DataAccess/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
@@ -7371,6 +7381,11 @@
         "system.xml.xmlserializer.nuspec"
       ]
     },
+    "NEMC.Common/1.0.0": {
+      "type": "project",
+      "path": "../NEMC.Common/NEMC.Common.csproj",
+      "msbuildProject": "../NEMC.Common/NEMC.Common.csproj"
+    },
     "NEMC.DataAccess/1.0.0": {
       "type": "project",
       "path": "../NEMC.DataAccess/NEMC.DataAccess.csproj",
@@ -7379,7 +7394,9 @@
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
+      "AutoMapper >= 10.1.1",
       "AutoMapper.Extensions.Microsoft.DependencyInjection >= 8.1.1",
+      "NEMC.Common >= 1.0.0",
       "NEMC.DataAccess >= 1.0.0"
     ]
   },
@@ -7410,6 +7427,9 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
+            "C:\\Projects\\NEMC.Coop\\NEMC.WebApi\\NEMC.Common\\NEMC.Common.csproj": {
+              "projectPath": "C:\\Projects\\NEMC.Coop\\NEMC.WebApi\\NEMC.Common\\NEMC.Common.csproj"
+            },
             "C:\\Projects\\NEMC.Coop\\NEMC.WebApi\\NEMC.DataAccess\\NEMC.DataAccess.csproj": {
               "projectPath": "C:\\Projects\\NEMC.Coop\\NEMC.WebApi\\NEMC.DataAccess\\NEMC.DataAccess.csproj"
             }
@@ -7426,6 +7446,10 @@
       "netcoreapp3.1": {
         "targetAlias": "netcoreapp3.1",
         "dependencies": {
+          "AutoMapper": {
+            "target": "Package",
+            "version": "[10.1.1, )"
+          },
           "AutoMapper.Extensions.Microsoft.DependencyInjection": {
             "target": "Package",
             "version": "[8.1.1, )"
